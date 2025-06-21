@@ -1,0 +1,16 @@
+[package]
+name = "donation_reward"
+version = "1.0.0"
+authors = []
+
+[addresses]
+donation = "0x3d69786ebfc32d5bd12d8f133b637f2babb56a630ec44719bcbb4bc3dc27e12e" 
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
