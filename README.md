@@ -1,5 +1,5 @@
-# H4B
-## Problem Statement: Optimizing techniques to prevent wastage of food using Image Classification algorithms
+# H4B-Team Black Hats
+## Problem Statement: Optimizing techniques to prevent food wastage using image classification with CNN algorithms.
 # 🍏 taaza
 
 taaza is a smart food freshness and donation platform that combines AI, Blockchain, and Civic Auth to fight food waste and drive social impact.
@@ -14,20 +14,20 @@ Users can:
 
 ## 🚀 Features
 
-- 🧠 Gemini AI Integration: Suggests recipes based solely on the scanned fruit or vegetable.
 - 🍅 Freshness Detection:
   - Detects whether a food item is Fresh or Rotten
   - Displays a confidence percentage
   - Predicts expected expiry date
   - Built using CNN (Convolutional Neural Network) and a classification algorithm
 - 🏥 NGO Recommendations:
-  - Suggests NGOs, old-age homes, and charitable organizations
+  - Suggests NGOs, old-age homes, and charitable organizations near the user's location
   - Locations visualized using the Leaflet Map API
 - 🔐 Civic Auth:
   - Authenticates users and stores user data securely in the database
 - ⛓️ Aptos Blockchain:
   - Every donation is logged on-chain
   - Users receive cryptocurrency-based rewards
+- 🧠 Gemini AI Integration: Suggests recipes based solely on the scanned fruit or vegetable.
 - 💾 MongoDB:
   - Stores food item logs, user profiles, freshness predictions, and donation history
 
@@ -54,9 +54,9 @@ Users can:
 ↓
 [Civic Auth] ←→ [MongoDB Atlas]
 ↓
-[Gemini AI] ←→ [AI Recipes]
-↓
 [CNN Model] ←→ [Freshness Prediction + Expiry]
+↓
+[Gemini AI] ←→ [AI Recipes]
 ↓
 [Leaflet Map API] ←→ [NGO/Charity Location Display]
 ↓
@@ -67,29 +67,25 @@ Users can:
 1. Clone the repo  
    `bash
    git clone https://github.com/biswajit150803/taaza_h4b.git
-   cd taaza
+   cd taaza_h4b
 Install dependencies
 
-bash
-Copy
-Edit
 npm install
 Set up .env file
 Add your API keys and Mongo URI:
 
-ini
-Copy
-Edit
 GEMINI_API_KEY=your_gemini_key
 CIVIC_APP_ID=your_civic_app_id
 APTOS_PRIVATE_KEY=your_wallet_key
 MONGODB_URI=your_mongo_uri
 Run the server
 
-bash
-Copy
-Edit
 npm start
+
+For the machine learning model:
+
+pip install -r requirements.txt
+
 🔐 Authentication with Civic
 Civic Auth is used for verifying user identity and managing login.
 
@@ -105,6 +101,8 @@ Donations are recorded immutably via smart contracts on Aptos
 Users earn cryptocurrency rewards for each donation
 
 Built using Move, Aptos’s smart contract language
+
+Need to create a petra wallet to make transactions
 
 📚 Docs: https://aptos.dev
 
@@ -179,4 +177,4 @@ Auto-schedule donation pickups with NGOs
 Pull requests are welcome. For major changes, open an issue first to discuss.
 
 📜 License
-MIT License © 2025 taaza Team
+MIT License © 2025 Black Hats Team
