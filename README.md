@@ -1,4 +1,4 @@
-# H4B-Team Black Hats
+# H4B-Black Hats
 ## Problem Statement: Optimizing techniques to prevent food wastage using image classification with CNN algorithms.
 # 🍏 taaza
 
@@ -79,9 +79,13 @@ Set up .env file
 Add your API keys and Mongo URI:
 
 GEMINI_API_KEY=your_gemini_key
+
 CIVIC_APP_ID=your_civic_app_id
+
 APTOS_PRIVATE_KEY=your_wallet_key
+
 MONGODB_URI=your_mongo_uri
+
 Run the server
 
 npm start
@@ -101,6 +105,7 @@ Offers a decentralized, privacy-first login experience.
 📚 Docs: https://www.civic.com
 
 ⛓️ Donations on Aptos
+
 Donations are recorded immutably via smart contracts on Aptos
 
 Users earn cryptocurrency rewards for each donation
@@ -112,6 +117,7 @@ Need to create a petra wallet to make transactions
 📚 Docs: https://aptos.dev
 
 🌐 AI with Gemini
+
 Gemini is used to:
 
 Analyze scanned food items
@@ -129,11 +135,10 @@ Freshness label: Fresh / Rotten
 
 Confidence score (e.g., 92%)
 
-Estimated expiry date
-
 Classification powered by trained machine learning dataset of fruits/vegetables
 
 📍 NGO and Charity Mapping
+
 Map rendered using Leaflet.js
 
 Locations of nearby NGOs, food banks, and old-age homes
@@ -181,5 +186,5 @@ Auto-schedule donation pickups with NGOs
 🤝 Contributing
 Pull requests are welcome. For major changes, open an issue first to discuss.
 
-📜 License
+📜 License:
 MIT License © 2025 Black Hats Team
