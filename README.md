@@ -67,11 +67,15 @@ Users can:
 1. Clone the repo  
    `bash
    git clone https://github.com/biswajit150803/taaza_h4b.git
+
    cd taaza_h4b
+
 Install dependencies
 
 npm install
+
 Set up .env file
+
 Add your API keys and Mongo URI:
 
 GEMINI_API_KEY=your_gemini_key
@@ -86,7 +90,8 @@ For the machine learning model:
 
 pip install -r requirements.txt
 
-🔐 Authentication with Civic
+🔐 Authentication with Civic:
+
 Civic Auth is used for verifying user identity and managing login.
 
 User data is securely saved in MongoDB after successful authentication.
