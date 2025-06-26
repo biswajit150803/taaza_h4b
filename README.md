@@ -25,6 +25,8 @@ Users can:
 - 🔐 Civic Auth:
   - Authenticates users and stores user data securely in the database
 - ⛓️ Aptos Blockchain:
+  - Users need to pay Aptos coins to save products in the inventory and further use our portal for product tracking and use other features.
+  - Scanning food items and getting product details can be done for free
   - Every donation is logged on-chain
   - Users receive cryptocurrency-based rewards
 - 🧠 Gemini AI Integration: Suggests recipes based solely on the scanned fruit or vegetable.
@@ -85,6 +87,8 @@ CIVIC_APP_ID=your_civic_app_id
 APTOS_PRIVATE_KEY=your_wallet_key
 
 MONGODB_URI=your_mongo_uri
+
+ADMIN_WALLET_ADDRESS=your_wallet_address
 
 Run the server
 
