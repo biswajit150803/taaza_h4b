@@ -37,13 +37,13 @@ Users can:
 
 | Tech               | Role                                                         |
 |--------------------|--------------------------------------------------------------|
-| Gemini AI API  | Recipe generation from scanned items                         |
-| CNN Model      | Fresh/rotten classification and expiry prediction            |
-| Leaflet Map API| Visual NGO/charity mapping                                   |
 | Civic Auth     | Decentralized authentication + user onboarding               |
 | Aptos Blockchain| Donation logging + crypto reward issuance                   |
+| Gemini AI API  | Recipe generation from scanned items                         |
+| CNN Model      | Fresh/rotten classification and expiry prediction            |
+| Leaflet Map API| Visual NGO/charity mapping                                   |             
 | MongoDB Atlas  | NoSQL DB for food items, users, logs                         |
-| Node.js / Express | Backend server and API                                   |
+| Node.js / Express | Backend server and API                                    |
 | React / React Native | Frontend (web/mobile interface)                        |
 
 ---
@@ -66,7 +66,7 @@ Users can:
 
 1. Clone the repo  
    `bash
-   git clone https://github.com/your-username/taaza.git
+   git clone https://github.com/biswajit150803/taaza_h4b.git
    cd taaza
 Install dependencies
 
